@@ -1,0 +1,24 @@
+# Ignorar arquivos grandes e binários
+*.exe
+*.jar
+*.msi
+*.zip
+*.7z
+*.rar
+*.iso
+
+# Ignorar arquivos do Eclipse
+*.class
+*.log
+*.tmp
+target/
+bin/
+
+# Ignorar arquivos pessoais e temporários
+*.pdf
+*.office
+
+# Ignorar repositórios comuns
+node_modules/
+.DS_Store
+Thumbs.db

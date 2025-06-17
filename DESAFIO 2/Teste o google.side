@@ -1,0 +1,138 @@
+{
+  "id": "27731fdb-d024-4f2b-8080-cb644fc98e58",
+  "version": "2.0",
+  "name": "Teste o google",
+  "url": "https://www.google.com.br",
+  "tests": [{
+    "id": "027e2456-989e-46f9-805f-0f57b4536693",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f7e54959-ec71-45c8-b451-5ffcd0eb5c79",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfcad8a8-9d99-4dbb-818f-d8aa024a8d73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2ccabf8-0ba0-4ca5-8f0e-721c88779bae",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7015caa5-2f10-4de7-89a6-ce4e83b043af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rr4y5c",
+      "targets": [
+        ["css=.rr4y5c", "css:finder"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz/div/div/c-wiz/div/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'NÃO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db305aaf-13f2-4314-b5ca-7ee13d9146f8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b36f96b-6ae0-4595-a3b8-44d262e7c6af",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a7b135-2286-4f78-9849-5c217e192519",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "senai"
+    }, {
+      "id": "ecb55525-2cdd-441d-b3b8-f8f0d5f04a02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cUnQKe:nth-child(7) .eJH8qe",
+      "targets": [
+        ["css=.cUnQKe:nth-child(7) .eJH8qe", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ca045e8-1dd5-4425-bdc0-1ffd78c4409c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hlcw0c:nth-child(3) .LC20lb:nth-child(2)",
+      "targets": [
+        ["css=.hlcw0c:nth-child(3) .LC20lb:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/span/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Home - SENAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3769ef-7053-4679-9929-1757df7554ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=c4g-content-root",
+      "targets": [
+        ["id=c4g-content-root", "id"],
+        ["css=#c4g-content-root", "css:finder"],
+        ["xpath=//div[@id='c4g-content-root']", "xpath:attributes"],
+        ["xpath=//body[@id='gsr']/div[14]", "xpath:idRelative"],
+        ["xpath=//body/div[14]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c0a12e2-3611-4dfa-b783-ee5279cd6d47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cUnQKe:nth-child(7) .eJH8qe",
+      "targets": [
+        ["css=.cUnQKe:nth-child(7) .eJH8qe", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "acd4f2f8-1808-4f54-a512-29ba75bfd7f3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["027e2456-989e-46f9-805f-0f57b4536693"]
+  }],
+  "urls": ["https://www.google.com.br/"],
+  "plugins": []
+}

@@ -1,0 +1,189 @@
+{
+  "id": "f87a33c4-70b5-4c90-bed4-cace85d6964c",
+  "version": "2.0",
+  "name": "TesteGoogle",
+  "url": "https://www.google.com.br",
+  "tests": [{
+    "id": "2ecf437c-1d03-48da-b0c6-262ff1469929",
+    "name": "TesteSenai",
+    "commands": [{
+      "id": "0ca3d52f-6059-43bd-83df-ea648d873690",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d66583b5-ba86-4680-80a4-f881c94b0497",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4008e6f7-50f4-477a-9c69-2ac874fd6864",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e11803a-43d5-42a9-8818-acbc46563d4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'senai')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d561d83b-c2b1-49ea-8373-e1f71e15ff6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Cursos Técnicos SENAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e2e0e5-99ac-4520-bd24-d9c4b51bd29e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d55f05a0-1da9-4135-81a3-6b8775b91acd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e37900d-b144-41eb-a42d-7e45c987f6bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SENAI",
+      "targets": [
+        ["linkText=SENAI", "linkText"],
+        ["css=#menu-1-0167b34 > .menu-item-678 > .elementor-item", "css:finder"],
+        ["xpath=//a[contains(text(),'SENAI')]", "xpath:link"],
+        ["xpath=//ul[@id='menu-1-0167b34']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/senai')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SENAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2d37fe-37c6-4bd4-a313-ead4ac872910",
+      "comment": "",
+      "command": "click",
+      "target": "id=elementor-search-form-9173a0a",
+      "targets": [
+        ["id=elementor-search-form-9173a0a", "id"],
+        ["name=s", "name"],
+        ["css=#elementor-search-form-9173a0a", "css:finder"],
+        ["xpath=//input[@id='elementor-search-form-9173a0a']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc910e60-bc97-490b-a1d7-f62147595d5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=elementor-search-form-9173a0a",
+      "targets": [
+        ["id=elementor-search-form-9173a0a", "id"],
+        ["name=s", "name"],
+        ["css=#elementor-search-form-9173a0a", "css:finder"],
+        ["xpath=//input[@id='elementor-search-form-9173a0a']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1a551f-7636-49f9-aafc-06cc477e850c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-44a993b .elementor-button",
+      "targets": [
+        ["css=.elementor-element-44a993b .elementor-button", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.fiemg.com.br/senai/area-de-interesse/inovacao-e-tecnologia/')])[23]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "114babb2-69b9-4fef-81f2-a176e71f71aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-heading-title:nth-child(2)",
+      "targets": [
+        ["css=.elementor-heading-title:nth-child(2)", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Tecnologia e Inovação')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48361c9c-08c4-4fe5-8d30-af47922bdf98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-32e0f81 .elementor-menu-toggle__icon--open",
+      "targets": [
+        ["css=.elementor-element-32e0f81 .elementor-menu-toggle__icon--open", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09cca5ad-3c83-4f5c-9fc7-c1d8be6155aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-active > .elementor-menu-toggle__icon--close",
+      "targets": [
+        ["css=.elementor-active > .elementor-menu-toggle__icon--close", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "956e1c6a-44bf-49ef-8000-d914ed32ac91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-element-2ffde0c .elementor-menu-toggle__icon--open",
+      "targets": [
+        ["css=.elementor-element-2ffde0c .elementor-menu-toggle__icon--open", "css:finder"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66632664-fad2-4836-b8b0-d1c3f622044b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-active > .elementor-menu-toggle__icon--close",
+      "targets": [
+        ["css=.elementor-active > .elementor-menu-toggle__icon--close", "css:finder"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "95b2574f-362a-4383-bd9f-5c220d2d9d5f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ecf437c-1d03-48da-b0c6-262ff1469929"]
+  }],
+  "urls": ["https://www.google.com.br/"],
+  "plugins": []
+}
