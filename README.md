@@ -22,7 +22,6 @@ teste-front-end/
 │
 ├── desafio-2/
 │   ├── apache-maven-3.9.9-bin/                 # Build e gestão de dependências
-│   ├── openlogic-openjdk-8u422-b05-windows-x64/ # JDK 8 para Selenium + Maven
 │   ├── PDFs/                                   # 1‑eclipse, 2‑jdk8, 3‑apache‑maven …
 │   │   ├── 1-eclipse.pdf
 │   │   ├── 2-jdk8.pdf
@@ -31,9 +30,8 @@ teste-front-end/
 │   │   ├── 5-chromedriver.pdf
 │   │   ├── 8-interagindo-elementos.pdf
 │   │   └── 9-interagindo-pagina.pdf
-│   ├── teste o google.side
-│   ├── testegoogle-1.side
-│   └── eclipse-inst-jre-win64/                 # IDE + runtime JRE
+│   ├── teste o google.side 
+│   └── testegoogle-1.side
 │
 ├── atividade-2/
 │   ├── projeto-api-jmeter/                     # Plano de performance de uma API
@@ -57,10 +55,10 @@ teste-front-end/
 
 ---
 
-## 🛠️ Como usar este repositório
+## Como usar este repositório
 
 1. **Clonar** o projeto:
-   ```bash
+   ``` bash
    git clone https://github.com/seu‑usuario/teste-front-end.git
    ```
 2. **Instalar dependências** conforme cada desafio:
@@ -77,7 +75,7 @@ teste-front-end/
 
 ---
 
-## 📑 Documentação
+## Documentação
 Para cada desafio/atividade há arquivos `.pdf` ou `.office` com:
 - Cenários e casos de teste
 - Plano de testes detalhado
@@ -85,10 +83,10 @@ Para cada desafio/atividade há arquivos `.pdf` ou `.office` com:
 
 ---
 
-## 🤝 Contribuindo
+## Contribuindo
 Sinta‑se livre para abrir *issues* ou *pull requests* com melhorias de scripts, documentação ou novos desafios.
 
 ---
 
-## 📜 Licença
+## Licença
 Distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
